@@ -10,7 +10,7 @@ app = FastAPI()
 # Разрешаем CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://hh-test1-front-theta.vercel.app/register"],
+    allow_origins=["https://hh-test1-front-theta.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
